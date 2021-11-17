@@ -945,11 +945,11 @@ function Dino:CreateWindow(dinotitle)
 
 end
 
-local DinoWindow = Dino:CreateWindow("Blox Fruit [ Made By NAYPRAMX#0562 ] ")
+local DinoWindow = Dino:CreateWindow("Blox Fruit [ Made By iKazu#19 ] ")
 local DinoPage = DinoWindow:NewPage("หน้าหลัก 1")
 local Home = DinoPage:NewSection("หมวดหมู่ ออโต้ฟาม")
-
-Home:CreateLabel("คำอธิบาย ถ้าพบบัคทัก ดิสคอด NAYPRAMX#0562")
+64
+Home:CreateLabel("คำอธิบาย ถ้าพบบัคทัก ดิสคอด iKazu#19")
 
 Home:CreateToggle("เลือกอาวุธ หมัด",function(value)
 _G.autoequipmelee = value
